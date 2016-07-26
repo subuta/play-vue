@@ -17,6 +17,7 @@ const mutations = {
 
 // create the store
 export default new Vuex.Store({
+  strict: true,
   state,
   mutations
 });
